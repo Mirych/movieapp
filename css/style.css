@@ -100,3 +100,9 @@ button:focus {
     display: flex;
     justify-content: center;
 }
+.cross-search {
+    margin-left: 10px;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}

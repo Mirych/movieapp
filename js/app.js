@@ -62,7 +62,7 @@ form.addEventListener("submit", e => {
     const apiSearchUrl = `${API_URL_SEARCH}${search.value}`;
     if (search.value) {
         getMovies(apiSearchUrl);
-        document.querySelector(".search__result").innerHTML = "<p>Результаты поиска по запросу:</p>&nbsp"  + search.value;
+        document.querySelector(".search__result").innerHTML = "<p>Результаты поиска по запросу:</p>&nbsp"  + search.value + `<a onclick="location.reload()"><img src="cross.svg" class="cross-search"/></a>`; 
         search.value = "";
     }
 })
