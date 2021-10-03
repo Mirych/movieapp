@@ -23,11 +23,6 @@ function getClassByRate(vote) {
         return "red";
     }
 }
-function comparisonRate(vote) {
-    if (vote > 0) {
-        return 
-    }
-}
 
 function showMovies(data) {
     const moviesEl = document.querySelector(".movies");
