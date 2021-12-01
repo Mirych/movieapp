@@ -6,7 +6,7 @@ Vanilla JS + Kinopoisk API = Good movie app :fire:
 - [x] Popular movies
 - [x] Rating
 - [x] Movie search
-- [x] (not more than two)
+- [x] Genres (not more than two)
 ## Todos
 - [ ]  Live beautiful search
 - [ ]  Switch theme
