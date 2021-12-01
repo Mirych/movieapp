@@ -78,19 +78,35 @@ button:focus {
     height: 36px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color: #1a191f;
+    align-items: center;    
     color: #fff;
     font-size: 14px;
+    font-weight: bold;
+}
+.movie__info-waiting {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #1a191f;
+    color: #1a191f;
+    font-size: 14px;
+    font-weight: bold;
 }
 .movie__info-green {
-    border: 2px solid green;
+    background-color: green;
 }
 .movie__info-red {
-    border: 2px solid red;
+    background-color:red;
 }
 .movie__info-orange {
-    border: 2px solid orange;
+    background-color:orange;
 }
 .movie__info-category {
     color: orange;

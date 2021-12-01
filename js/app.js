@@ -17,7 +17,7 @@ async function getMovies(url) {
 function getClassByRate(vote) {
     if (vote >= 7) {
         return "green";
-    } else if (vote > 5) {
+    } else if (vote > 6) {
         return "orange";
     } else {
         return "red";
@@ -40,13 +40,10 @@ function showMovies(data) {
                 </div>
                 <div class="movie__info">
                     <div class="movie__info-title">${movie.nameRu}</div>
-                    <div class="movie__info-category">${movie.genres.map(
-                        genre => ` ${genre.genre}`
-                        )}
-                    </div>                  
-                      <!-- не у всех фильмов есть рейтинг -->
-                      
-                        ${movie.rating == 0 || movie.rating == 'null' ? "" : `<div class="movie__info-rating movie__info-${getClassByRate(movie.rating)}">${movie.rating}</div>`}                        
+                    <div class="movie__info-category">${movie.genres.slice(0,2).map(genre => ` ${genre.genre}`)}
+                    </div>                                                             
+                    ${movie.rating.includes('%') ? `<div class="movie__info-waiting">${movie.rating.split('.')[0]+"%"}</div>` :  
+                    movie.rating == 0 || movie.rating == 'null' ? "" : `<div class="movie__info-rating movie__info-${getClassByRate(movie.rating)}">${movie.rating}</div>`}      
                 </div> 
         `;
         moviesEl.appendChild(movieEl);
