@@ -1,15 +1,15 @@
 # Movie App
 Vanilla JS + Kinopoisk API = Good movie app :fire:
 ## Live Demo
-:computer:<a href="#">Link</a>
+:computer:<a href="https://mirych.github.io/movieapp">Link</a>
 ## Already completed:
-:white_check_mark: Popular movies
-:white_check_mark: Rating
-:white_check_mark: Movie search
-:white_check_mark: Genres (not more than two)
+- [x] Popular movies
+- [x] Rating
+- [x] Movie search
+- [x] (not more than two)
 ## Todos
-:white_large_square: Live beautiful search
-:white_large_square: Switch theme
-:white_large_square: Wishlist
-:white_large_square: Movie page
+- [ ]  Live beautiful search
+- [ ]  Switch theme
+- [ ] Wishlist
+- [ ] Movie page
 ## Sample images
