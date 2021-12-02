@@ -8,8 +8,9 @@ Vanilla JS + Kinopoisk API = Good movie app :fire:
 - [x] Movie search
 - [x] Genres (not more than two)
 ## Todos
-- [ ]  Live beautiful search
-- [ ]  Switch theme
+- [ ] Live beautiful search
+- [ ] Switch theme
 - [ ] Wishlist
 - [ ] Movie page
+- [ ] Pagination
 ## Sample images
